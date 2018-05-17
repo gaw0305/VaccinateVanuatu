@@ -71,6 +71,7 @@ public class DBHandler extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_DATA);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_SETTINGS);
         onCreate(db);
+        db.close();
     }
 
     // Inserts information into the database about what language to use in the app
@@ -140,6 +141,7 @@ public class DBHandler extends SQLiteOpenHelper {
         contentValues.put(KEY_SHOT_DATES, shotDates);
         contentValues.put(KEY_UPDATED_SHOT_DATES, shotDates);
         db.insert(TABLE_DATA, null, contentValues);
+        db.close();
     }
 
     // Returns all the information stored in the data table, AKA all information about all the children
