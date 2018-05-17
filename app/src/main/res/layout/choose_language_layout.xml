@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toStartOf="@id/english"
+        android:layout_toLeftOf="@id/english"
+        android:gravity="center"
+        android:layout_below="@id/title"
+        android:id="@+id/bislama">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/vanuatu"
+            android:id="@+id/vanuatu"
+            android:contentDescription="vanuatu"
+            android:onClick="initialFlagClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vanuatu"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+            android:text="Bislama"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/britain"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="vanuatu"
+            android:onClick="initialFlagClicked"
+            android:src="@drawable/britain" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/britain"
+            android:layout_centerHorizontal="true"
+            android:text="English"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/french"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toEndOf="@+id/english"
+        android:layout_toRightOf="@id/english"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/france"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="vanuatu"
+            android:onClick="initialFlagClicked"
+            android:src="@drawable/french" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/france"
+            android:layout_centerHorizontal="true"
+            android:text="French"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:text="Choose a language:"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+</RelativeLayout>

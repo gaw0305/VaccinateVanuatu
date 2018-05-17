@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImmunizationApp</string>
+
+    <!-- Main Screen Items -->
+    <string name="new_record_button">Nouvelle Enfant</string>
+
+    <string name="january">Janv</string>
+    <string name="february">Fév</string>
+    <string name="march">Mars</string>
+    <string name="april">Avril</string>
+    <string name="may">Mai</string>
+    <string name="june">Juin</string>
+    <string name="july">Juil</string>
+    <string name="august">Août</string>
+    <string name="september">Sept</string>
+    <string name="october">Oct</string>
+    <string name="november">Nov</string>
+    <string name="december">Déc</string>
+    <string name="startup_title">Bienvenue!</string>
+    <string name="welcome_message">Cette application est destinée pour la utilisation par les parents
+        au Vanuatu qui ont les enfants de moins d\'un an, pour les aider à se souvenir d'emmener leurs
+        enfant pour les faire vacciner. </string>
+    <string name="information_welcome">- L\'Immunization est important: chaque enfant a besoin de
+        recevoir une série de vaccinations de base avant leur premier anniversaire\n - L\'Immunization
+        protège les enfants contre plusieurs maladies dangereuses. Un enfant qui n\est pas immunisé
+        est plus enclins à la maladie, resté handicapé a vie, et/ou mourir\n - Il n'est pas dangereux
+        d'immuniser un enfant qui souffre d'un maladie bénines, un disabilité et malnutrition.</string>
+    <string name="view_needed_shots">Voir les Vaccinations il faut Toujours</string>
+    <string name="name">Nom</string>
+    <string name="separator">|</string>
+    <string name="vaccine">Vaccins</string>
+    <string name="vaccine_details">Information</string>
+    <string name="vaccine_due">Vaccin pour</string>
+    <string name="vaccine_given">Vaccin donné?</string>
+    <string name="tomorrow">Demain</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="days_until_shot">jours avant le vaccin suivant</string>
+    <string name="next_shot_due">Vaccin suivant pour</string>
+    <string name="view_completed_shots">Voir les vaccins déjà donnés</string>
+    <string name="child_name">Nom de L\'Enfant</string>
+    <string name="shot_complete">Vous avez reçu tous\nles immunizations nécessaires</string>
+    <string name="congratulations">Felicitations!</string>
+    <string name="kids_list_title">Liste des Enfants</string>
+    <string name="shot_schedule_title">Calendrier de Vaccinations</string>
+    <string name="gender">Sexe</string>
+    <string name="male">Mâle</string>
+    <string name="female">Femelle</string>
+    <string name="birthday">Anniv.</string>
+    <string name="choose_birthday">Choisir Anniversaire</string>
+    <string name="BCG_title">Vaccin BCG</string>
+    <string name="BCG_target">Maladie Cible: Tuberculose</string>
+    <string name="BCG_information">La Tuburculose (TB) est une maladie infectieuse causée par une
+        bacille qui attaque généralement aux poumons, mais peux aussi infeccter d\'autres parties
+        du corps comme les os, les articulations et le cerveau.</string>
+    <string name="hep_b_title">Vaccin L\'Hépatite B</string>
+    <string name="hep_b_target">Maladie Cible: L\'Hépatite B</string>
+    <string name="hep_b_information">L\'Hépatite B est une grave maladie qui est causée par un virus
+        qui s\'attaque au foie. Le virus, on nom du virus de l\'hépatite B (VHB) peut causé une infection
+        chronique, cancer du foie, insuffisance hépatique et de décès.</string>
+    <string name="penta_target">Target Disease: l\'Hépatite B, l\'Haemophilus Influenzae Type B,
+        la Diphtérie, la Coqueluche, et le Tétanos</string>
+    <string name="penta_information">L\'Hépatite B est une grave maladie qui est causée par un virus
+        qui s\'attaque au foie. Le virus, on nom du virus de l\'hépatite B (VHB) peut causer une infection
+        chronique, cancer du foie, insuffisance hépatique et de décès.\nHaemophilus influenza type B
+        (HiB) est une infection causée par une bactérie qui cause souvent pneumonie, méningite,
+        et/ou de décès chez les jeunes enfants.\nDiphtheria est une maladie provoquée par une
+        bactérie qui infecte la gorge, qui à son tour peut cause de difficulté à avaler ou à
+        respirer qui peut être fatale. Il peut aussi affecter la cœur\Le tétanos est causé par des
+        bactéries qui produisent une toxine qui affecte le système nerveux et cause la rigidité
+        musculaire. La bactérie infecte le corps par les blessures sales ou à la coupure et les
+        soins non hygiéniques du cordon ombilical pendant l\’accouchement. Des gens de tous les âges
+        peuvent être affectés, mais c’est surtout avec les nouveau-nés. Cette maladie, appelée le
+        tétanos néonatal, est mortelle dans la plupart de cas.</string>
+    <string name="polio_target">Maladie Cible: Poliomyélite</string>
+    <string name="polio_information">La poliomyélite, ou polio, est une maladie invalidante qui est
+        causé par l\’un ou l\’autre de trois virus voisins, le poliovirus type 1, type 2 ou type 3.
+        Fièvre, maux de tête, fatigue, vomissements, douleurs dans les membres et raideur de la
+        nuque sont les premiers symptômes. Dans un cas sur 200, l\'infection entraîne
+        uneparalysie irréversible (généralement au niveau des jambes). Entre 5 à 10% des malades
+        paralysésmeurent lorsque leurs muscles respiratoires cessent de fonctionner.</string>
+    <string name="measles_rubella_information">La rougeole est une maladie très contagieuse. Les
+        principaux symptômes sont une forte fièvre et une éruption sur la peau. La rougeole tue
+        plus d’enfant que toute autre maladie évitable par la vaccination. Parce que cette maladie
+        est extrêmement infectieuse, elle prend généralement la forme d’une épidémie qui peut causer
+        beaucoup de décès, notamment parmi les jeunes enfants malnutris.</string>
+
+    <string name="first">Première</string>
+    <string name="second">Deuxième</string>
+    <string name="third">Troisième</string>
+    <string name="measles_rubella">Vaccin de Rougeole/Rubéole</string>
+    <string name="measles_rubella_target">Maladie Cible: Rougeole et Rubéole</string>
+    <string name="penta_title">Vaccin Pentavalent</string>
+    <string name="polio_title">Vaccin Polio Oral (OPV)</string>
+    <string name="ipv_title">Vaccin Polio Inactivé (IPV)</string>
+    <string name="bcg_name">BCG</string>
+    <string name="hep_b_name">Hep B</string>
+    <string name="first_penta_name">Première Penta</string>
+    <string name="first_polio_name">Première Polio</string>
+    <string name="second_penta_name">Deuxième Penta</string>
+    <string name="second_polio_name">Deuxième Polio</string>
+    <string name="third_penta_name">Troisième Penta</string>
+    <string name="third_polio_name">Troisième Polio</string>
+    <string name="ipv_name">IPV</string>
+    <string name="measles_rubella_name">Rougeole/Rubéole</string>
+    <string name="next">Suivant</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="take_photo_title">Prendre un photo?</string>
+    <string name="take_photo_message">Voulez-vous prendre un photo de votre enfant pour utiliser
+        comme une photo d'identification?</string>
+    <string name="startup_yes">C\'est bon!</string>
+    <string name="delete_child">Supprimer L\'Enfant</string>
+    <string name="startup_no">Ne le montre pas encore</string>
+    <string name="confirm">C\'est bon ça!</string>
+    <string name="save">Sauvegarder</string>
+    <string name="cancel">Annuler</string>
+    <string name="name_error">Veuillez entre le nom de votre enfant</string>
+    <string name="name_exists_error">Ce nom existe déjà</string>
+    <string name="birthday_error">Sélectionnez l\'anniversaire de votre enfant</string>
+    <string name="shot_due">"Il faut un vaccin pour "</string>
+    <string name="shot_due_on">"pour le "</string>
+    <string name="camera_not_found">On ne peux pas accéder à votre caméra&#8230;désolé!</string>
+</resources>

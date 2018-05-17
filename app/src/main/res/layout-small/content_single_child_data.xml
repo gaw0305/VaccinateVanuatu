@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_single_child_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ogcio.vaccinatevanuatu.SingleChildDataActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/translateLayout"
+        android:id="@+id/constraintLayout">
+
+        <TextView
+            android:id="@+id/baby_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Name"
+            android:layout_toStartOf="@id/main_baby_image"
+            android:layout_toLeftOf="@id/main_baby_image"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/main_baby_image"
+            app:layout_constraintEnd_toStartOf="@+id/main_baby_image"
+            app:layout_constraintTop_toTopOf="@+id/main_baby_image" />
+
+        <TextView
+            android:id="@+id/baby_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/main_baby_image"
+            android:layout_toRightOf="@id/main_baby_image"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/main_baby_image"
+            app:layout_constraintStart_toEndOf="@+id/main_baby_image"
+            app:layout_constraintTop_toTopOf="@+id/main_baby_image" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/main_baby_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/syringe_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/main_layout_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/constraintLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/day_textview"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:includeFontPadding="false"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toTopOf="@+id/main_day_hint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/counterToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:includeFontPadding="false"
+            android:textSize="30sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/main_day_hint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/counter" />
+
+        <TextView
+            android:id="@+id/main_day_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/counter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/days_until_shot"
+            android:textSize="12sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/next_shot_due"
+            android:textSize="12sp"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/counterToday" />
+    </android.support.constraint.ConstraintLayout>
+
+    <ListView
+        android:id="@+id/shotListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/main_layout_num"
+        android:layout_marginTop="7dp" />
+
+    <ListView
+        android:id="@+id/shotGivenListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/main_layout_num"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/translateLayout"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="shotButtonClicked"
+        android:text="@string/view_completed_shots" />
+
+</RelativeLayout>

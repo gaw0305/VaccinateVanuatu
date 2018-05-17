@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Immunization App</string>
+    <string name="startup_title">Welkam!</string>
+    <string name="welcome_message">Ol man wea oli sud usum app ia oli ol mami mo dadi wea oli
+            jas bonem bebi lo las yia, blo helpem olgeta blo rimemba blo kam karem ol stret stik
+            blo pikinini blo olgeta lo fas yia blem.</string>
+    <string name="information_welcome">- Stik meresin hemi impoten: evri pikinini
+            i nidim wan grup blong stik meresin long taem blong fes yia blong laef blong hem.\n
+            - Stik meresin i protektem pikinini long fulap denjeres sik. Wan pikini we i no kasem ol
+            stik meresin blong hem i save kasem ol sik, i save kam andikap long ful laef blong hem o
+            i no save kakae gud mo ded.\n - Hemi sef blong kivim stik meresin long wan pikinini wea
+            i gat smol sik, hemi andikap o i no kakae gud.</string>
+    <string name="new_record_button">Niufala Pikinini</string>
+    <string name="name">Nem</string>
+    <string name="vaccine">Stik Meresin</string>
+    <string name="vaccine_details">Infomesen</string>
+    <string name="vaccine_due">Taem blo karem stik</string>
+    <string name="vaccine_given">Karem Stik Finis?</string>
+    <string name="tomorrow">Tumoro</string>
+    <string name="today">Tudei</string>
+    <string name="days_until_shot">dei bifo nekis stik</string>
+    <string name="next_shot_due">Bae yu karem nekis stik</string>
+    <string name="view_completed_shots">Luk ol Stik Wea Yu Karem Finis</string>
+    <string name="child_name">Nem blo Pikinini</string>
+    <string name="kids_list_title">Ol Pikinini</string>
+    <string name="shot_schedule_title">Det blo ol stik</string>
+    <string name="gender">Boe/Gel</string>
+    <string name="male">Boe</string>
+    <string name="female">Gel</string>
+    <string name="birthday">Betdei</string>
+    <string name="choose_birthday">Jusum Betdei</string>
+    <string name="BCG_title">Stik Meresin blong BCG</string>
+    <string name="BCG_target">Sik: Tuberculosis</string>
+    <string name="BCG_information">Tuberculosis (TB) i afektem ol lang, be i save afektem tu ol pat blong bodi, inkludim ol bon, ol joen, mo brein.</string>
+    <string name="hep_b_title">Stik meresin blong Hepatitis B (Hep B)</string>
+    <string name="hep_b_target">Sik: Hepatitis B</string>
+    <string name="hep_b_information">Hepatitis B hemi wan siries sik we wan vaeres we i atakem liva.
+        Vaeres ia we nem blong hem hemi hepatitis B (HBV), i save kosem wan infeksen long laef taem,
+        kansa long liva, liva i stop blong wok, mo ded.</string>
+    <string name="first">1</string>
+    <string name="second">2</string>
+    <string name="third">3</string>
+    <string name="january">Jan</string>
+    <string name="february">Feb</string>
+    <string name="march">Maj</string>
+    <string name="april">Eprel</string>
+    <string name="may">Mei</string>
+    <string name="june">Jun</string>
+    <string name="july">Julae</string>
+    <string name="august">Okis</string>
+    <string name="september">Sept</string>
+    <string name="october">Okt</string>
+    <string name="november">Nov</string>
+    <string name="december">Dis</string>
+    <string name="bcg_name">BCG</string>
+    <string name="hep_b_name">Hep B</string>
+    <string name="first_penta_name">Penta 1</string>
+    <string name="first_polio_name">Polio 1</string>
+    <string name="second_penta_name">Penta 2</string>
+    <string name="second_polio_name">Polio 2</string>
+    <string name="third_penta_name">Penta 3</string>
+    <string name="third_polio_name">Polio 3</string>
+    <string name="ipv_name">IPV</string>
+    <string name="shot_complete">Yu karem evri stik finis</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="measles_rubella_name">Misel/Rubela</string>
+    <string name="confirm">Gud blo save!</string>
+    <string name="penta_title">Stik meresin blong Penta</string>
+    <string name="penta_target">Sik: Hepatitis B, Haemophilus Influenzae type B (HiB), Difteria, Pertusis, mo Tetanos</string>
+    <string name="penta_information">Hepatitis B hemi wan siries sik we wan vaeres we i atakem liva.
+        Vaeres ia we nem blong hem hemi hepatitis B (HBV), i save kosem wan infeksen long laef taem,
+        kansa long liva, liva i stop blong wok, mo ded.\nHaemophilus influenza type B (HiB), menli
+        pneumonia mo meningitis mo ded blong ol yang pikinini. Long yia 2000, klosap 2 o 3 milion
+        man oli kasem ol series siknes menli pneumonia mo meningitis we H.infuenzae type b (Hib) i
+        kosem mo 450 000 ded oli ol yang pikinini.\nDifteria i kosem infeksen long trot mo samtaem
+        infeksen blong ol tonselwe i save kosem ded.\nPertussis o whooping cough, hemi wan sik blong
+        system blong pulum win. Wan bebet we i stap long maot, nos, mo trot nao i kosem sik ia.
+        Fulap pikinini we i kasem pertussis oli gat ol longlongfala kof we i save goged long 4
+        kasem 8 wik. Sik ia hemi wan sik we i denjeres mo long ol pikinini. Lo 2000 oli estimetem
+        39 million kes mo 297.000 ded oli tekem ples long wold we Pertusis i kosem.\nTetanos
+        i kam tru taem wan so i ekspos long ol bebet blong hem we oli stap fulap taem long graon.
+        Bebet i infektem bodi tru long ol so we i toti o tru long umbilicus taem oli iusum ol tul
+        we oli no sterelaesem taem bebi i jas bon. Evri man i save kasem tetanus. Be sik ia i
+        afektem bigwan ol niubon bebi. Yumi kolem neonatal tetanos. Fulap pikinini we i kasem sik
+        ia oli ded. Neonatal tetanos i stap plante nao long ol rurol eria from fulap pikinini i bon
+        long haos mo yumi iusum ol tul we yumi no sterelaesem. Long yia 2000, WHO i estimetem se
+        tetanus long taem we pikinini i bon i kilim klosap 200 000 bebi.</string>
+    <string name="polio_title">Stik meresin blong Oral Polio (OPV)</string>
+    <string name="polio_target">Sik: Poliomyelitis</string>
+    <string name="polio_information">Poliomyelitis, o polio nomo, hemi wan i save kripolem wan
+        pikinini. Trifala vaeres i kosem sik ia: poliovirus taep 1, 2 or 3. Stat long taem blong
+        lonjing blong wan globol tingting blong aotem polio, namba blong ol kes blong polio we oli
+        ripotem i ridius long 350 000 long 1998 i go down long 483 wetem wael vaeres blong polio
+        long 2001.</string>
+    <string name="ipv_title">Stik meresin blong IPV</string>
+    <string name="measles_rubella">Stik meresin blong Misel mo Rubela</string>
+    <string name="measles_rubella_target">Sik: Misel mo Rubela</string>
+    <string name="measles_rubella_information">Misel hemi wan sik we i save pas long wan man i go
+        long narafala man. Wan vaeres i kosem sik ia ol saen blong hem hemi plante fva mo sikras
+        long bodi. Misel i kilim mo pikinini bitim ol narafala sik we oli gat wan stik meresin.
+        Misel hemi save kam wan epidemi from hemi save spred kwik taem mo i save mekem se plante
+        pkinini we oli no kakae gud oli ded.\nRubela hem i wan nomol sik blong pikinini be sik ia
+        i save kosem siries problem taem mama i gat bel - olsem sora blong bebi i no wok gud o
+        bebi i handikap.</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="take_photo_title">Takem wan foto?</string>
+    <string name="take_photo_message">Yu wantem tekem wan foto blo pikinini blo yu blo usum
+        olsem wan id foto blem?</string>
+    <string name="view_needed_shots">Luk ol Stik wea Pikinini Nidim Yet</string>
+    <string name="separator">|</string>
+    <string name="save">Sevem</string>
+    <string name="cancel">Kansel</string>
+    <string name="camera_not_found">App i no save accessem camera blo yu&#8230;sori!</string>
+    <string name="name_error">Plis putum nem blo pikinini blo yu</string>
+    <string name="name_exists_error">Nem ia stap finis</string>
+    <string name="birthday_error">Jusum betdei blo pikinini blo yu</string>
+    <string name="shot_due">"Taem blo karem stik blo "</string>
+    <string name="shot_due_on">"blo karem lo "</string>
+    <string name="next">Nekis</string>
+    <string name="startup_yes">Stret wantaem!</string>
+    <string name="delete_child">Karem aot Pikinini</string>
+    <string name="startup_no">Nomo showem infomesen ia</string>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="startup_title">Welcome!</string>
+    <string name="welcome_message">This app is intended to be used by parents in Vanuatu who
+        have children that are less than a year old, in order to help them remember to get
+        the proper vaccinations in their first year. </string>
+    <string name="information_welcome">- Immunization is important: every child
+            needs a series of immunizations during the first year of life\n - Immunization protects
+            children against several dangerous diseases. A child who is not immunised is more likely
+            to fall ill, become permanently disabled or undernourished and/or die\n - It is safe to
+            immunize a child suffering from minor illnesses, disabilities and malnutrition</string>
+    <string name="new_record_button">New Child</string>
+    <string name="view_needed_shots">View Needed Shots</string>
+    <string name="camera_not_found">Can\'t access your camera&#8230;sorry!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="take_photo_title">Take a picture?</string>
+    <string name="take_photo_message">Would you like to take a picture of your child to use
+            as their id picture?</string>
+    <string name="confirm">Good to know!</string>
+    <string name="january">Jan</string>
+    <string name="february">Feb</string>
+    <string name="march">Mar</string>
+    <string name="april">Apr</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">Aug</string>
+    <string name="september">Sept</string>
+    <string name="october">Oct</string>
+    <string name="november">Nov</string>
+    <string name="december">Dec</string>
+    <string name="bcg_name">BCG</string>
+    <string name="hep_b_name">Hep B</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="name_error">Please enter your child\'s name</string>
+    <string name="name_exists_error">Name already exists</string>
+    <string name="birthday_error">Choose your child\'s birthday</string>
+    <string name="shot_due">Shot due for </string>
+    <string name="shot_due_on">due on </string>
+    <string name="first_penta_name">First Penta</string>
+    <string name="first_polio_name">First Polio</string>
+    <string name="second_penta_name">Second Penta</string>
+    <string name="second_polio_name">Second Polio</string>
+    <string name="third_penta_name">Third Penta</string>
+    <string name="third_polio_name">Third Polio</string>
+    <string name="ipv_name">IPV</string>
+    <string name="measles_rubella_name">Measles/Rubella</string>
+    <string name="bcg_name_db" translatable="false">BCG</string>
+    <string name="hep_b_name_db" translatable="false">Hep B</string>
+    <string name="first_penta_name_db" translatable="false">First Penta</string>
+    <string name="first_polio_name_db" translatable="false">First Polio</string>
+    <string name="second_penta_name_db" translatable="false">Second Penta</string>
+    <string name="second_polio_name_db" translatable="false">Second Polio</string>
+    <string name="third_penta_name_db" translatable="false">Third Penta</string>
+    <string name="third_polio_name_db" translatable="false">Third Polio</string>
+    <string name="ipv_name_db" translatable="false">IPV</string>
+    <string name="measles_rubella_name_db" translatable="false">Measles/Rubella</string>
+    <string name="name">Name</string>
+    <string name="separator">|</string>
+    <string name="vaccine">Vaccine</string>
+    <string name="vaccine_details">Vaccine Details</string>
+    <string name="vaccine_due">Vaccine Due On</string>
+    <string name="vaccine_given">Vaccine Given?</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="today">Today</string>
+    <string name="days_until_shot">days until next shot</string>
+    <string name="next_shot_due">Next shot due</string>
+    <string name="view_completed_shots">View Completed Shots</string>
+    <string name="gender_image" translatable="false">Gender Image</string>
+    <string name="child_name">Child Name</string>
+    <string name="kids_list_title">List of Kids</string>
+    <string name="shot_schedule_title">Shot Schedule</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">"Female   "</string>
+    <string name="birthday">Birthday</string>
+    <string name="choose_birthday">Choose Birthday</string>
+    <string name="next">Next</string>
+    <string name="BCG_title">BCG Vaccine</string>
+    <string name="BCG_target">Target Disease: Tuberculosis</string>
+    <string name="BCG_information">Tuberculosis (TB) is caused by bacteria that attack the lungs,
+        but it can also affect other parts of the body such as the bones, joints, and brain.</string>
+    <string name="hep_b_title">Hep B Vaccine</string>
+    <string name="hep_b_target">Target Disease: Hepatitis B</string>
+    <string name="hep_b_information">Hepatitis B is a serious disease caused by a virus that attacks
+        the liver. The virus, which is called hepatitis B virus (HBV), can cause a lifelong
+        infection, liver cancer, liver failure and death.</string>
+    <string name="shot_complete">You\'ve completed\nall required shots</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="first">First </string>
+    <string name="second">Second </string>
+    <string name="third">Third </string>
+    <string name="startup_yes">Got it!</string>
+    <string name="delete_child">Delete Child</string>
+    <string name="startup_no">Don\'t show this again</string>
+    <string name="penta_title">Pentavalent Vaccine</string>
+    <string name="penta_target">Target Disease: Hepatitis B, Haemophilus Influenza type B (HiB),
+        Diptheria, Pertusis, and Tetanus</string>
+    <string name="penta_information">Hepatitis B is a serious disease caused by a virus that attacks
+        the liver. The virus, which is called hepatitis B virus (HBV), can cause a lifelong
+        infection, liver cancer, liver failure and death.\nHaemophilus influenza type B (HiB) is
+        bacteria that often causes pneumonia or meningitis and/or death in young children.\nDiphtheria
+        is a bacterium infecting the throat, which in turn affects breathing and swallowing that
+        could be fatal. It can also affect the heart.\nTetanus bacteria make toxins that attack the
+        nerves and cause muscles to become tense and stiff. The bacteria infect the body through
+        dirty wounds or through the umbilicus following non-sterile delivery. People of all ages
+        can get tetanus but the disease is particularly common and serious in newborn babies. This
+        is called neonatal tetanus. Most infants who get this disease die.</string>
+    <string name="polio_title">Oral Polio Vaccine (OPV)</string>
+    <string name="polio_target">Target Disease: Poliomyelitis</string>
+    <string name="polio_information">Poliomyelitis, or polio, is a crippling disease caused by any
+        one of three related viruses, poliovirus types 1, 2 or 3. Initial symptoms are fever,
+        fatigue, headache, vomiting and stiffness in the neck and pain in the limbs. One in 200
+        infections leads to irreversible paralysis (usually in the legs). Among those paralysed,
+        5-10% die when their breathing muscles become immobilized.</string>
+    <string name="ipv_title">Inactivated Polio Vaccine (IPV)</string>
+    <string name="measles_rubella">Measles/Rubella Vaccine</string>
+    <string name="measles_rubella_target">Target Disease: Measles and Rubella</string>
+    <string name="measles_rubella_information">Measles is a very contagious disease with symptoms
+        of high fever and rash. Measles kills more children than any other preventable disease.
+        Since the disease is exceptionally infectious, it tends to occur as an epidemic that may
+        cause many deaths especially among malnourished children.</string>
+    <string name="app_name">Vaccinate Vanuatu</string>
+</resources>
