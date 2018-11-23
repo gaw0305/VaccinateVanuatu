@@ -47,9 +47,9 @@ public class CustomBabyAdapter extends ArrayAdapter<ogcio.vaccinatevanuatu.Baby>
             convertView = View.inflate(getContext(), R.layout.child_layout, null);
 
         // Gets instances of the xml resources so they can be set with the correct information
-        TextView name = convertView.findViewById(R.id.name);
-        TextView birthday = convertView.findViewById(R.id.birthday);
-        ImageView imageView = convertView.findViewById(R.id.genderImage);
+        TextView name = (TextView) convertView.findViewById(R.id.name);
+        TextView birthday = (TextView) convertView.findViewById(R.id.birthday);
+        ImageView imageView = (ImageView) convertView.findViewById(R.id.genderImage);
 
         // Sets the name, birthday, and gender image for the baby
         name.setText(babyList.get(position).getName());

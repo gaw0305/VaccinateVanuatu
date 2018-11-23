@@ -99,8 +99,8 @@ public class KidsList extends android.support.v4.app.Fragment {
             // show the language dialog
             else if (savedInstanceState.getString("language").equals("true"))
                 showLanguageDialog();
-            // If the startup dialog was showing when the app was rotated or restarted,
-            // show the language dialog
+                // If the startup dialog was showing when the app was rotated or restarted,
+                // show the language dialog
             else if (savedInstanceState.getString("startup").equals("true")) {
                 if (savedInstanceState.getString("information").equals("true"))
                     showInformationDialog();
@@ -113,8 +113,8 @@ public class KidsList extends android.support.v4.app.Fragment {
             // it means that it is the first time the user uses the app
             if (myDB.isEmpty("SETTINGS")) showLanguageDialog();
             else if (myDB.showStartupDialog()) showStartupDialog();
-            // If it is not the first time using the app, but there are no children in the list,
-            // the app will show the create new child dialog
+                // If it is not the first time using the app, but there are no children in the list,
+                // the app will show the create new child dialog
             else if (myDB.isEmpty("DATA")) {
                 prevID = 0;
                 createNewChild("", "", "");
@@ -393,8 +393,8 @@ public class KidsList extends android.support.v4.app.Fragment {
                 else if (myDB.nameExists(name)) ((EditText) dialogView.findViewById(R.id.nameText)).setError(getResources().getString(R.string.name_exists_error));
                 else if (radioButtonId == -1) ((RadioButton) dialogView.findViewById(R.id.female)).setError("");
                 else if (birthday.equals("")) ((Button) dialogView.findViewById(R.id.birthday)).setError(getResources().getString(R.string.birthday_error));
-                // If there are no errors, adds the child's information to the database, and updates
-                // the list of children on the page
+                    // If there are no errors, adds the child's information to the database, and updates
+                    // the list of children on the page
                 else {
                     PackageManager packageManager = getContext().getPackageManager();
                     if (packageManager.hasSystemFeature(PackageManager.FEATURE_CAMERA)
@@ -442,7 +442,8 @@ public class KidsList extends android.support.v4.app.Fragment {
         if (requestCode == 1 && resultCode == getActivity().RESULT_OK) {
             imageBitmap = (Bitmap) data.getExtras().get("data");
             picUri = data.getData();
-            performCrop();
+            saveChild();
+//            performCrop();
         }
         else if (requestCode == 2 && resultCode == getActivity().RESULT_CANCELED) {
             imageBitmap = null;
@@ -458,29 +459,30 @@ public class KidsList extends android.support.v4.app.Fragment {
         }
     }
 
-    public void performCrop() {
-        try {
-            Intent cropIntent = new Intent("com.android.camera.action.CROP");
-            //indicate image type and Uri
-            cropIntent.setDataAndType(picUri, "image/*");
-            //set crop properties
-            cropIntent.putExtra("crop", "true");
-            //indicate aspect of desired crop
-            cropIntent.putExtra("aspectX", 1);
-            cropIntent.putExtra("aspectY", 1);
-            //indicate output X and Y
-            cropIntent.putExtra("outputX", 256);
-            cropIntent.putExtra("outputY", 256);
-            //retrieve data on return
-            cropIntent.putExtra("return-data", true);
-            //start the activity - we handle returning in onActivityResult
-            startActivityForResult(cropIntent, 2);
-        }
-        catch(ActivityNotFoundException e) {
-            e.printStackTrace();
-            saveChild();
-        }
-    }
+//    public void performCrop() {
+//        try {
+//            Intent cropIntent = new Intent("com.android.camera.action.CROP");
+//            //indicate image type and Uri
+//            cropIntent.setDataAndType(picUri, "image/*");
+//            //set crop properties
+//            cropIntent.putExtra("crop", "true");
+//            //indicate aspect of desired crop
+//            cropIntent.putExtra("aspectX", 1);
+//            cropIntent.putExtra("aspectY", 1);
+//            //indicate output X and Y
+//            cropIntent.putExtra("outputX", 256);
+//            cropIntent.putExtra("outputY", 256);
+//            //retrieve data on return
+//            cropIntent.putExtra("return-data", true);
+//            //start the activity - we handle returning in onActivityResult
+//            startActivityForResult(cropIntent, 2);
+//        }
+//        catch(ActivityNotFoundException e) {
+//            e.printStackTrace();
+//            Toast.makeText(getActivity(), "Whoops - your camera doesn't support cropping")
+//            saveChild();
+//        }
+//    }
 
     public void saveChild() {
         prevID++;
